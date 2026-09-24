@@ -25,23 +25,23 @@ function grades(num){
         return `F`;
     }
 }
-console.log(grades(90)); // A
-console.log(grades(89)); // B
-console.log(grades(80)); // B
-console.log(grades(79)); // C
-console.log(grades(70)); // C
-console.log(grades(69)); // D
-console.log(grades(60)); // D
-console.log(grades(59)); // F
-console.log(grades(0));  // F
+console.log(grades(90)); 
+console.log(grades(89)); 
+console.log(grades(80)); 
+console.log(grades(79)); 
+console.log(grades(70)); 
+console.log(grades(69)); 
+console.log(grades(60)); 
+console.log(grades(59)); 
+console.log(grades(0)); 
 
 
 function leapYears(year){
     return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
 }
-console.log(leapYears(2024)); // true
-console.log(leapYears(2023)); // false
-console.log(leapYears(1900)); // false
-console.log(leapYears(2000)); // true
-console.log(leapYears(2004)); // true
-console.log(leapYears(2005)); // false
+console.log(leapYears(2024)); 
+console.log(leapYears(2023)); 
+console.log(leapYears(1900)); 
+console.log(leapYears(2000)); 
+console.log(leapYears(2004)); 
+console.log(leapYears(2005)); 
